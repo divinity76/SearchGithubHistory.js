@@ -1,4 +1,4 @@
-
+<?php
 declare(strict_types = 1);
 require_once ('hhb_.inc.php');
 $hc = new hhb_curl ();
