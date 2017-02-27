@@ -38,5 +38,6 @@ while ( true ) {
 		die ();
 	}
 	$current = $next;
-	sleep ( 1 ); // github will block you if you request too fast, sigh
+	//sleep ( 1 ); // github will block you if you request too fast, sigh
+	//but after some testing, turns out its better only to wait after actually being ratelimited.
 }
